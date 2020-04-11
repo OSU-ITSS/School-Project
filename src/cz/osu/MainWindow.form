@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cz.osu.MainWindow">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="558" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="4a77d" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4b573" class="javax.swing.JLabel" binding="lblHeader">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value="Steam"/>
+            </properties>
+          </component>
+          <component id="1945a" class="javax.swing.JButton" binding="btnLogin">
+            <constraints border-constraint="East"/>
+            <properties>
+              <name value="btnLogin"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <grid id="24894" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="efa64" class="javax.swing.JButton" binding="btnShop">
+                <constraints/>
+                <properties>
+                  <name value="btnShop"/>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="570ae" class="javax.swing.JButton" binding="btnLibrary">
+                <constraints/>
+                <properties>
+                  <name value="btnLibrary"/>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="cabdb" class="javax.swing.JButton" binding="btnCommunity">
+                <constraints/>
+                <properties>
+                  <name value="btnCommunity"/>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="20fb2" class="javax.swing.JButton" binding="btnProfile">
+                <constraints/>
+                <properties>
+                  <name value="btnProfile"/>
+                  <text value="Button"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
